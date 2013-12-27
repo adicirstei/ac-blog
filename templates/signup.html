@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>adicirstei Blog</title>
+</head>
+<link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+<body>
+
+<h1>ac Blog - SignUp</h1>
+
+
+<form method="post">
+	
+	<label>
+		<div>username</div>
+		<input type="text" name="username" value="{{username}}">
+	</label>
+	<label>
+		<div>password</div>
+		<input type="password" name="password" value="{{password}}">
+	</label>  
+  
+	<label>
+		<div>verify</div>
+		<input type="password" name="verify" value="{{verify}}">
+	</label>
+
+	<label>
+		<div>email (optional)</div>
+		<input type="text" name="email" value="{{email}}">
+	</label>
+
+	<div class="error">{{error}}</div>
+	<input type="submit">
+</form>
+<hr>
+</body>
+</html>
